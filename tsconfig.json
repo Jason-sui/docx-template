@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    // ...
+    "types": [
+      "vite/client",
+      "element-plus/global"
+    ],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": true,
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

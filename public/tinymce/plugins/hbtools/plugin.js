@@ -1,0 +1,4 @@
+!function (editor) {
+  "use strict";
+
+}();

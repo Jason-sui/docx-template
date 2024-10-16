@@ -1,0 +1,17 @@
+:root {
+  --main-gap: 12px;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.admin-content {
+  display: flex;
+  flex-direction: column;
+  padding: var(--main-gap);
+  width: 100%;
+  height: 100%;
+}
